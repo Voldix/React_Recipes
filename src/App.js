@@ -5,7 +5,7 @@ import CounterHooks from "./CounterHooks";
 export const ThemeContext = React.createContext();
 
 function App() {
-  const [theme, setTheme] = useState("red");
+  const [theme, setTheme] = useState("perple");
   return (
     <ThemeContext.Provider value={{ background: theme }}>
       Counter
