@@ -1,0 +1,53 @@
+.recipe {
+    background-color: hsl(13, 25%, 95%);
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.recipe:first-child {
+    margin-top: 0;
+}
+
+.recipe:last-child {
+    margin-bottom: 0;
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.recipe-title {
+    color: hsl(181, 37%, 43%);
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.recipe-row {
+    margin-top: 10px;
+}
+
+.recipe-label {
+    color: hsl(0, 0%, 40%);
+    text-shadow: 0 0 1px hsl(181, 37%, 43%);
+    margin-right: 5px;
+}
+
+.recipe-value {
+    color: hsl(0, 0%, 40%);
+    font-weight: 300;
+}
+
+.recipe-instructions {
+    /* lines are wrapped where newline characters are specified in the source */
+    white-space: pre-wrap;
+}
+
+.recipe-value-indented {
+    margin-top: 10px;
+    margin-left: 20px;
+}
